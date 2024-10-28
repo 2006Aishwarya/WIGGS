@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background: #eee;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background: #eee;
+    padding: 20px;
+}
+.product-card {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.banner {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('banner.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 0px;
+    color: white;
+}
+button {
+    background-color: #008cba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005f73;
+    transform: scale(1.05);
+}
+.products {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    margin:50px;
+}
+.products {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1, h2, h3 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+.banner {
+    width: 100%;
+    overflow: hidden; /* Ensures any overflow is hidden */
+}
+
+.imgoffer {
+    width: 100%;
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes any space at the bottom */
+}
+.product-card{
+    padding: auto;
+   
+}
+.body {
+    font-family: Arial, sans-serif;
+}
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+.logo img {
+    border-radius: 20px;
+}
+nav ul {
+            display: flex;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            margin-left: auto;
+        }
+.nav ul li {
+            margin: 0 15px;
+        }
+.nav ul li a {
+            color: black;
+            text-decoration: none;
+            font-family: 'Orbitron', sans-serif;
+            font-size: 16px;
+        }
+.sect-p1{
+    margin:20px;
+}
+#product1{
+    text-align: center;
+     
+}
+#product1 .pro{
+    width: 23%;
+    min-width:250px;
+    padding: 10px 12px;
+    border: 1px solid #e3eaec;
+    border-radius: 25px;
+    cursor:pointer;
+    box-shadow:20px 20px 30px rgba(0, 0, 0, 0.02);
+    margin: 15px 0;
+     
+}
+#product1 .pro:hover{
+    box-shadow:20px 20px 30px rgba(0, 0, 0, 0.06);
+    transition: 0.2s ease;
+     
+}
+#product1 .pro img{
+    width:100%;
+    border-radius: 20px;
+}
+#product1 .pro .des{
+    text-align: start;
+    padding: 1opx 0;
+}
+#product1 .pro .des span{
+    color: #060606;
+    font-size: 12px;
+
+}
+#product1 .pro .des h5{
+    padding-top: 7px;
+    color:#1a1a1a;
+    font-size:14px;
+}
+#product1 .pro .des i{
+    font-size: 12px;
+    color:rgb(243,181,25);
+}
+#product1 .pro .des h4{
+    padding-top: 7px;
+    font-size:15px;
+    font-weight: 700;
+    color:#088178;
+}
+#product1 .pro .cart{
+    width:
+}

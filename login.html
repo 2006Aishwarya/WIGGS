@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Modal Example</title>
+    <link rel="stylesheet" href="stylelogin.css">
+</head>
+<body>
+   <!-- Main page button to open the modal -->
+<button type="button" onclick="openModal()">Log in</button>
+
+    <!-- Updated HTML -->
+<div id="loginModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <h2>WIggS</h2>
+    <p>Login to your WIggs account</p>
+    <input type="email" placeholder="Email"><br><br>
+    <input type="password" placeholder="Password"><br><br>
+    <button class="submit-btn">Log in</button>
+    <p><a href="#">Forgot password?</a></p>
+    <button class="google-login">Log in with Google Account</button>
+    <p>Don’t have an account? <a href="#">Sign up</a></p>
+  </div>
+</div>
+
+<script src="scriptlogin.js"></script>
+
+</body>
+</html>
+

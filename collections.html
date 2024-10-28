@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesuu.css">
+    <title>Ecommerce Store</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logobgR.png" height="50" width="50" style="border-radius: 20px;">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="frontpage.html" style="font-family: 'Orbitron', sans-serif;">Home</a></li>
+                <li><a href="#" style="font-family: 'Orbitron', sans-serif;">Collections</a></li>
+                <li><a href="#" style="font-family: 'Orbitron', sans-serif;">WIggCare</a></li>
+                <li><a href="#" style="font-family: 'Orbitron', sans-serif;">Contact us</a></li>
+                <li><a href="#" style="font-family: 'Orbitron', sans-serif;">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <img src="headerad.png" alt="" class="imgoffer">
+    </section>
+
+    <main>
+        <!--section class="product-view">
+            <div class="product-details">
+                <h2>WIggS</h2>
+                <p class="price">$139.00</p>
+                <select>
+                    <option>Select Size</option>
+                    <option>Small</option>
+                    <option>Medium</option>
+                    <option>Large</option>
+                </select>
+                <input type="number" value="1" min="1">
+                <button>Add to Cart</button>
+                <p class="description">
+                    The Gildan Ultra Cotton T-shirt is made from substantial 6.0 oz. fabric.
+                </p>
+            </div>
+        </section>
+
+        <section class="products">
+            <h2>Featured Products</h2><br><br>
+            <div class="product-card">
+                <img src="MeganWig-1.webp" height="200" width="200">
+                <h3>Straight hair-length 30 cm</h3>
+                <p class="price">$78</p>
+                <p class="brand">Made from human hair</p>
+                <button onclick="openCheckoutBox()">Check out!</button>
+            </div>
+             Repeat product-card for other products 
+            <div class="product-card">
+                <img src="adelewig.webp" height="200" width="200">
+                <h3>Straight hair-length 30 cm</h3>
+                <p class="price">$78</p>
+                <p class="brand">Made from human hair</p>
+                <button onclick="openCheckoutBox()">Check out!</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Sign Up For Newsletters</p>
+        <form>
+            <input type="email" placeholder="Your email address">
+            <button>Subscribe</button>
+        </form>
+    </footer>
+
+     Checkout Box Modal 
+    <div id="checkoutBox" style="display: none; position: fixed; top: 10%; left: 50%; transform: translate(-50%, 0); width: 80%; max-width: 500px; background: #fff; padding: 20px; border: 2px solid #333; z-index: 1000;">
+        <h3>Product Checkout</h3>
+        <p>Product: Straight hair-length 30 cm</p>
+        <p>Price: $78</p>
+        <p>Description: Made from human hair</p>
+        <button onclick="closeCheckoutBox()">Close</button>
+    </div>
+
+    <script>
+        function openCheckoutBox() {
+            document.getElementById("checkoutBox").style.display = "block";
+        }
+
+        function closeCheckoutBox() {
+            document.getElementById("checkoutBox").style.display = "none";
+        }
+    </script>-->
+    <section id="feature" class="sect-p1"></section>
+    <section id="product1" class="sect-p1">
+        <h2>Featured Products</h2>
+        <p>Latest arrivals inspired by Famous Celebrities</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="adelewig.webp" alt="" class="">
+                <div class="des">
+                    <span>ADELE WIG</span>
+                    <h5>ahhh its just a hair</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+
+
+                    </div>
+                </div>
+                <h4>$23</h4>
+                <a href="#"><i class="fa-solid fa-cart-shopping Cart"></i></a>
+            </div>
+            
+        </div>
+    </section>
+</body>
+</html>
